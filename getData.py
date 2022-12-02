@@ -20,7 +20,5 @@ def getData():
     # Uncomment raise to check full detailed errors!
     # raise
 
-# active_case = parse_json['Andaman and Nicobar Islands']['districtData']['South Andaman']['active']
-# print("Active cases in South Andaman:", parse_json)
 
 getData()
