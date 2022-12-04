@@ -23,4 +23,4 @@ Ehancement space:
 
 - Refactore tre code to manageme SQL quiries from one function
 - Create Log files
-- 
+
