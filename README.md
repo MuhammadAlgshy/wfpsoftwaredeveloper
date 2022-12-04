@@ -1,9 +1,16 @@
 # wfpsoftwaredeveloper
 Code for Software Developer Test - World Food Programme
 Please make sure you create your own enviroment and install the script as following:
-``
+```
 pip install pipenv
-``
+```
+```
+pipenv install
+```
+Run System
+```
+python app.py
+```
 The Script has 6 programes ("Functions"):
 * 1- Test DB
 * 2- Test API
