@@ -1,4 +1,4 @@
-# wfpsoftwaredeveloper
+# WFP Software Developer Test
 Code for Software Developer Test - World Food Programme
 Please make sure you create your own enviroment and install the script as following:
 ```
@@ -19,8 +19,9 @@ The Script has 6 programes ("Functions"):
 * 5- List Needed Cfii Calcualtion Countries
 * 6- Update Cfii on Dedicated Database
            
-Ehancement space:
+Ehancements:
 
-- Refactore tre code to manageme SQL quiries from one function
-- Create Log files
-
+- Refactore tre code to manageme SQL quiries from one function.
+- Create Log files and functions.
+- Create bash file to make it as service.
+- Answer the two other questions.
