@@ -1,14 +1,11 @@
 #Libraries
 import requests
 import json
-#Settings
-from settings import logging
 from mysql.connector import Error
+#Settings
+from settings import logging, connectionDB
 
-from settings import connectionDB
-
-def selectData():
-
+def select_Cfii_calcualtion():
     try:
         connection = connectionDB("IConnection")
         cursor = connection.cursor()
@@ -18,11 +15,11 @@ def selectData():
                         JOIN countries_iso3   as B \
                         on A.adm0_code=B.adm0_code \
                             where cfii_calcualtion=1 ")
-        myresult = dict(zip(cursor.column_names, cursor.fetchone()))
-        print(format(myresult))
-        myresult = cursor.fetchall()
-        for x in myresult:
-            print(x)
+        
+        records = cursor.fetchall()
+        print("\nPrinting each row")
+        for row in records:
+            print("iso3_code = ", row[0], )
     except Error as e:
          print("Error while connecting to MySQL", e)
     finally:

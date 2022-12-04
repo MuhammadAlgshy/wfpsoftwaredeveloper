@@ -1,4 +1,4 @@
-from getData import getData, selectData
+from getData import getData, select_Cfii_calcualtion
 from settings import *
 import time
 from scheduleTask import scheduleTask
@@ -41,7 +41,7 @@ def main():
             print("ISO3 => "+Iso3_entry+"\nStart Date =>" + str(start_date) +"\nEnd Date =>" + str(end_date))
             getData("production", Iso3_entry, start_date, end_date )
         if programe == 5:
-          selectData()
+          select_Cfii_calcualtion()
         if programe == 0:
           print("Thank you for using our system! \n looking forward to see you soon! ^_^")
           exit()  
