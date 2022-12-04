@@ -1,4 +1,4 @@
-from getData import getData
+from getData import getData, selectData
 from settings import *
 import time
 from scheduleTask import scheduleTask
@@ -12,14 +12,15 @@ def main():
           2- Test API \n \
           3- Test Schedule Function \n \
           4- Run API without Schedule \n \
-          5- Exit!")
+          5- Select Data \n \
+          0- Exit!")
 
         # if I am using Python 10 I could use Match function to create the switch
         # Get user input
         programe= int(input("Please select one of the programes: "))
         # Run the programme
         if programe == 1:
-          testDB()
+          connectionDB("Test")
         if programe == 2:
           getData("")
         if programe == 3:
@@ -39,8 +40,9 @@ def main():
             end_date = datetime.date(year, month, day)
             print("ISO3 => "+Iso3_entry+"\nStart Date =>" + str(start_date) +"\nEnd Date =>" + str(end_date))
             getData("production", Iso3_entry, start_date, end_date )
-
         if programe == 5:
+          selectData()
+        if programe == 0:
           print("Thank you for using our system! \n looking forward to see you soon! ^_^")
           exit()  
     except ValueError:

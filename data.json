@@ -1,0 +1,818 @@
+[
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900483, "name": "Badakhshan", "population": 1357037 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 1238497, "prevalence": 0.9126482884394443 },
+      "rcsi": { "people": 761094, "prevalence": 0.560849851551579 },
+      "healthAccess": { "people": 420255, "prevalence": 0.3808765045249209 },
+      "marketAccess": { "people": 347225, "prevalence": 0.25586995785671285 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900484, "name": "Badghis", "population": 707535 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 664954, "prevalence": 0.9398181001452364 },
+      "rcsi": { "people": 358189, "prevalence": 0.5062491608188994 },
+      "healthAccess": { "people": 219582, "prevalence": 0.3800409469602584 },
+      "marketAccess": { "people": 206635, "prevalence": 0.29204915657882646 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900485, "name": "Baghlan", "population": 1306243 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 1192140, "prevalence": 0.9126483180052952 },
+      "rcsi": { "people": 732606, "prevalence": 0.5608497040749693 },
+      "healthAccess": { "people": 404525, "prevalence": 0.38087667136107123 },
+      "marketAccess": { "people": 334228, "prevalence": 0.2558696965266034 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900486, "name": "Balkh", "population": 1942931 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 1770824, "prevalence": 0.9114191555167729 },
+      "rcsi": { "people": 1041861, "prevalence": 0.5362316006075357 },
+      "healthAccess": { "people": 679254, "prevalence": 0.4476714344920097 },
+      "marketAccess": { "people": 573069, "prevalence": 0.294950477876761 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900487, "name": "Bamyan", "population": 637983 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 589648, "prevalence": 0.924237885593826 },
+      "rcsi": { "people": 349252, "prevalence": 0.547431514632835 },
+      "healthAccess": { "people": 212679, "prevalence": 0.40614569964809527 },
+      "marketAccess": { "people": 195961, "prevalence": 0.30715708725781093 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900488, "name": "Daykundi", "population": 664948 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 614570, "prevalence": 0.9242377771750666 },
+      "rcsi": { "people": 364013, "prevalence": 0.5474307765419251 },
+      "healthAccess": { "people": 221668, "prevalence": 0.4061455271961441 },
+      "marketAccess": { "people": 204244, "prevalence": 0.30715785294489195 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900489, "name": "Farah", "population": 724841 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 681218, "prevalence": 0.939817428050374 },
+      "rcsi": { "people": 366950, "prevalence": 0.5062489566677382 },
+      "healthAccess": { "people": 224952, "prevalence": 0.3800394590459225 },
+      "marketAccess": { "people": 211689, "prevalence": 0.2920488769261121 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900490, "name": "Faryab", "population": 1428019 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 1301523, "prevalence": 0.9114188189772103 },
+      "rcsi": { "people": 765749, "prevalence": 0.5362316607832249 },
+      "healthAccess": { "people": 499239, "prevalence": 0.4476711168179971 },
+      "marketAccess": { "people": 421195, "prevalence": 0.2949502624302766 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900491, "name": "Ghazni", "population": 1754092 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 1536495, "prevalence": 0.8759489240017058 },
+      "rcsi": { "people": 960628, "prevalence": 0.5476497241877849 },
+      "healthAccess": { "people": 803125, "prevalence": 0.5229512838338878 },
+      "marketAccess": { "people": 389454, "prevalence": 0.2220259826736568 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900492, "name": "Ghor", "population": 984184 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 924953, "prevalence": 0.9398174299582022 },
+      "rcsi": { "people": 498243, "prevalence": 0.5062498475894751 },
+      "healthAccess": { "people": 305439, "prevalence": 0.38004040493141444 },
+      "marketAccess": { "people": 287430, "prevalence": 0.29204904773904067 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900493, "name": "Hilmand", "population": 1861885 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 1702725, "prevalence": 0.9145170141107818 },
+      "rcsi": { "people": 1183968, "prevalence": 0.6358974909835999 },
+      "healthAccess": { "people": 776398, "prevalence": 0.4675237790553333 },
+      "marketAccess": { "people": 620521, "prevalence": 0.3332756856626483 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900494, "name": "Hirat", "population": 2755908 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 2539726, "prevalence": 0.9215571644329306 },
+      "rcsi": { "people": 1632222, "prevalence": 0.5922628766998027 },
+      "healthAccess": { "people": 1098077, "prevalence": 0.540631294097385 },
+      "marketAccess": { "people": 960020, "prevalence": 0.34834979977560937 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900495, "name": "Jawzjan", "population": 775124 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 706462, "prevalence": 0.9114183175061843 },
+      "rcsi": { "people": 415646, "prevalence": 0.5362316222952714 },
+      "healthAccess": { "people": 270985, "prevalence": 0.4476706518531878 },
+      "marketAccess": { "people": 228623, "prevalence": 0.2949499323685354 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900496, "name": "Kabul", "population": 6700516 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 5765552, "prevalence": 0.8604638806921736 },
+      "rcsi": { "people": 3109072, "prevalence": 0.4640048617151276 },
+      "healthAccess": { "people": 2434471, "prevalence": 0.4371227021473324 },
+      "marketAccess": { "people": 1367608, "prevalence": 0.20410487789298615 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900497, "name": "Kandahar", "population": 1801843 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 1647816, "prevalence": 0.9145172439246639 },
+      "rcsi": { "people": 1145788, "prevalence": 0.6358978001967985 },
+      "healthAccess": { "people": 751361, "prevalence": 0.4675239374549477 },
+      "marketAccess": { "people": 600511, "prevalence": 0.3332759846446111 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900498, "name": "Kapisa", "population": 628639 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 581012, "prevalence": 0.9242380095749799 },
+      "rcsi": { "people": 344137, "prevalence": 0.5474318328961455 },
+      "healthAccess": { "people": 209564, "prevalence": 0.40614556456117756 },
+      "marketAccess": { "people": 193091, "prevalence": 0.3071572078728809 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900499, "name": "Khost", "population": 819460 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 717805, "prevalence": 0.875948795548288 },
+      "rcsi": { "people": 448777, "prevalence": 0.5476496717350451 },
+      "healthAccess": { "people": 375196, "prevalence": 0.5229508782143633 },
+      "marketAccess": { "people": 181941, "prevalence": 0.2220254801942743 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900500, "name": "Kunar", "population": 642920 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 562092, "prevalence": 0.8742798481926212 },
+      "rcsi": { "people": 366699, "prevalence": 0.5703648976544515 },
+      "healthAccess": { "people": 293916, "prevalence": 0.4859949639579933 },
+      "marketAccess": { "people": 169878, "prevalence": 0.2642288309587507 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900501, "name": "Kunduz", "population": 1463366 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 1335538, "prevalence": 0.9126483287266574 },
+      "rcsi": { "people": 820728, "prevalence": 0.5608494388963526 },
+      "healthAccess": { "people": 453183, "prevalence": 0.38087602172485235 },
+      "marketAccess": { "people": 374431, "prevalence": 0.25586968673592253 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900502, "name": "Laghman", "population": 635317 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 555444, "prevalence": 0.874278509783305 },
+      "rcsi": { "people": 362363, "prevalence": 0.5703656599776175 },
+      "healthAccess": { "people": 290440, "prevalence": 0.4859945824803615 },
+      "marketAccess": { "people": 167869, "prevalence": 0.26422872361356614 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900503, "name": "Logar", "population": 559215 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 516848, "prevalence": 0.9242385338104399 },
+      "rcsi": { "people": 306132, "prevalence": 0.5474316676054827 },
+      "healthAccess": { "people": 186421, "prevalence": 0.4061461840794779 },
+      "marketAccess": { "people": 171767, "prevalence": 0.30715735450586984 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900504, "name": "Nangarhar", "population": 2190772 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 1915348, "prevalence": 0.8742799341967123 },
+      "rcsi": { "people": 1249541, "prevalence": 0.5703656062794302 },
+      "healthAccess": { "people": 1001528, "prevalence": 0.4859945402393449 },
+      "marketAccess": { "people": 578867, "prevalence": 0.2642296870692158 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900505, "name": "Nimroz", "population": 236308 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 216107, "prevalence": 0.9145143830599025 },
+      "rcsi": { "people": 150267, "prevalence": 0.6358946798246357 },
+      "healthAccess": { "people": 98539, "prevalence": 0.46752181036164053 },
+      "marketAccess": { "people": 78755, "prevalence": 0.33327267803036714 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900506, "name": "Nuristan", "population": 210895 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 184381, "prevalence": 0.874278669480073 },
+      "rcsi": { "people": 120287, "prevalence": 0.570364399345646 },
+      "healthAccess": { "people": 96412, "prevalence": 0.4859933035026464 },
+      "marketAccess": { "people": 55724, "prevalence": 0.26422627373811614 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900507, "name": "Paktika", "population": 998379 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 874529, "prevalence": 0.8759489131882782 },
+      "rcsi": { "people": 546762, "prevalence": 0.5476497402289111 },
+      "healthAccess": { "people": 457115, "prevalence": 0.5229503904497695 },
+      "marketAccess": { "people": 221666, "prevalence": 0.2220259039903684 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900508, "name": "Paktya", "population": 787829 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 690098, "prevalence": 0.8759489686213633 },
+      "rcsi": { "people": 431454, "prevalence": 0.5476492995307357 },
+      "healthAccess": { "people": 360713, "prevalence": 0.5229501448843503 },
+      "marketAccess": { "people": 174918, "prevalence": 0.22202533798578122 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900509, "name": "Panjsher", "population": 218763 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 202189, "prevalence": 0.9242377377294241 },
+      "rcsi": { "people": 119757, "prevalence": 0.5474280385622797 },
+      "healthAccess": { "people": 72927, "prevalence": 0.40614474084795793 },
+      "marketAccess": { "people": 67194, "prevalence": 0.3071543176862632 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900510, "name": "Parwan", "population": 949721 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 877769, "prevalence": 0.9242388951880697 },
+      "rcsi": { "people": 519907, "prevalence": 0.5474312982444318 },
+      "healthAccess": { "people": 316600, "prevalence": 0.40614510695716294 },
+      "marketAccess": { "people": 291714, "prevalence": 0.3071575757511943 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900511, "name": "Samangan", "population": 554213 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 505120, "prevalence": 0.9114188074549775 },
+      "rcsi": { "people": 297186, "prevalence": 0.5362306550008751 },
+      "healthAccess": { "people": 193754, "prevalence": 0.44767054958401953 },
+      "marketAccess": { "people": 163465, "prevalence": 0.2949494806783014 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900512, "name": "Sar-e-Pul", "population": 799480 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 728661, "prevalence": 0.9114189455625726 },
+      "rcsi": { "people": 428706, "prevalence": 0.5362310501826187 },
+      "healthAccess": { "people": 279500, "prevalence": 0.44767079691158695 },
+      "marketAccess": { "people": 235807, "prevalence": 0.2949501728538998 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900513, "name": "Takhar", "population": 1407252 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 1284325, "prevalence": 0.9126478510815444 },
+      "rcsi": { "people": 789257, "prevalence": 0.5608497980461211 },
+      "healthAccess": { "people": 435806, "prevalence": 0.3808766188784171 },
+      "marketAccess": { "people": 360073, "prevalence": 0.25586959549533417 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900514, "name": "Uruzgan", "population": 561409 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 513418, "prevalence": 0.9145171417370332 },
+      "rcsi": { "people": 356998, "prevalence": 0.6358964676376759 },
+      "healthAccess": { "people": 234105, "prevalence": 0.46752352500126704 },
+      "marketAccess": { "people": 187104, "prevalence": 0.33327574014666667 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900515, "name": "Wardak", "population": 850019 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 785620, "prevalence": 0.9242382565119225 },
+      "rcsi": { "people": 465327, "prevalence": 0.5474312927122805 },
+      "healthAccess": { "people": 283364, "prevalence": 0.40614620268986246 },
+      "marketAccess": { "people": 261090, "prevalence": 0.3071578400012235 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900516, "name": "Zabul", "population": 494813 },
+    "date": "2022-12-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 452514, "prevalence": 0.9145154548369601 },
+      "rcsi": { "people": 314650, "prevalence": 0.6358967933340474 },
+      "healthAccess": { "people": 206335, "prevalence": 0.46752404423328947 },
+      "marketAccess": { "people": 164909, "prevalence": 0.33327539898911307 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900483, "name": "Badakhshan", "population": 1357037 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 1238999, "prevalence": 0.9130173904623159 },
+      "rcsi": { "people": 743325, "prevalence": 0.5477558828535994 },
+      "healthAccess": { "people": 426556, "prevalence": 0.37945292670925324 },
+      "marketAccess": { "people": 327846, "prevalence": 0.24158958082940996 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900484, "name": "Badghis", "population": 707535 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 668169, "prevalence": 0.9443621407671804 },
+      "rcsi": { "people": 355201, "prevalence": 0.5020260481813621 },
+      "healthAccess": { "people": 223196, "prevalence": 0.38423124403134423 },
+      "marketAccess": { "people": 193239, "prevalence": 0.2731158175920626 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900485, "name": "Baghlan", "population": 1306243 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 1192623, "prevalence": 0.9130172591843922 },
+      "rcsi": { "people": 715502, "prevalence": 0.5477556626140772 },
+      "healthAccess": { "people": 410590, "prevalence": 0.3794529489934875 },
+      "marketAccess": { "people": 315575, "prevalence": 0.24158981139037683 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900486, "name": "Balkh", "population": 1942931 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 1770354, "prevalence": 0.9111768884044867 },
+      "rcsi": { "people": 1053074, "prevalence": 0.5420027782767376 },
+      "healthAccess": { "people": 677851, "prevalence": 0.44497867384673 },
+      "marketAccess": { "people": 551844, "prevalence": 0.28402655575519664 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900487, "name": "Bamyan", "population": 637983 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 589061, "prevalence": 0.9233179829530771 },
+      "rcsi": { "people": 352625, "prevalence": 0.5527184893641367 },
+      "healthAccess": { "people": 215351, "prevalence": 0.4113149740737243 },
+      "marketAccess": { "people": 190305, "prevalence": 0.2982916472695981 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900488, "name": "Daykundi", "population": 664948 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 613959, "prevalence": 0.9233190929031372 },
+      "rcsi": { "people": 367530, "prevalence": 0.5527199119329632 },
+      "healthAccess": { "people": 224453, "prevalence": 0.4113149210814238 },
+      "marketAccess": { "people": 198348, "prevalence": 0.2982909941830038 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900489, "name": "Farah", "population": 724841 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 684512, "prevalence": 0.9443619687695777 },
+      "rcsi": { "people": 363889, "prevalence": 0.5020259615557067 },
+      "healthAccess": { "people": 228655, "prevalence": 0.3842307775553213 },
+      "marketAccess": { "people": 197965, "prevalence": 0.27311506937383506 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900490, "name": "Faryab", "population": 1428019 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 1301178, "prevalence": 0.9111768610097016 },
+      "rcsi": { "people": 773990, "prevalence": 0.542002592402482 },
+      "healthAccess": { "people": 498208, "prevalence": 0.44497851777019604 },
+      "marketAccess": { "people": 405595, "prevalence": 0.28402633298296454 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900491, "name": "Ghazni", "population": 1754092 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 1497619, "prevalence": 0.8537858903637894 },
+      "rcsi": { "people": 931777, "prevalence": 0.5312018981900607 },
+      "healthAccess": { "people": 757441, "prevalence": 0.4973821170523755 },
+      "marketAccess": { "people": 366703, "prevalence": 0.20905573937969046 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900492, "name": "Ghor", "population": 984184 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 929425, "prevalence": 0.9443613915387251 },
+      "rcsi": { "people": 494086, "prevalence": 0.5020260439104883 },
+      "healthAccess": { "people": 310466, "prevalence": 0.38423059552263233 },
+      "marketAccess": { "people": 268796, "prevalence": 0.27311559627061605 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900493, "name": "Hilmand", "population": 1861885 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 1689625, "prevalence": 0.9074810409477855 },
+      "rcsi": { "people": 1164553, "prevalence": 0.6254698867008435 },
+      "healthAccess": { "people": 751670, "prevalence": 0.4508524961594437 },
+      "marketAccess": { "people": 596574, "prevalence": 0.32041398904873286 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900494, "name": "Hirat", "population": 2755908 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 2560031, "prevalence": 0.9289245098145157 },
+      "rcsi": { "people": 1774077, "prevalence": 0.6437359302269887 },
+      "healthAccess": { "people": 1133813, "prevalence": 0.5329064516469584 },
+      "marketAccess": { "people": 984490, "prevalence": 0.3572289060447591 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900495, "name": "Jawzjan", "population": 775124 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 706275, "prevalence": 0.9111767012407138 },
+      "rcsi": { "people": 420119, "prevalence": 0.5420023118881624 },
+      "healthAccess": { "people": 270426, "prevalence": 0.4449790804297105 },
+      "marketAccess": { "people": 220156, "prevalence": 0.2840268137743122 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900496, "name": "Kabul", "population": 6700516 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 5818299, "prevalence": 0.868335960991661 },
+      "rcsi": { "people": 3028405, "prevalence": 0.4519659381456592 },
+      "healthAccess": { "people": 2444294, "prevalence": 0.4322752611467578 },
+      "marketAccess": { "people": 1347105, "prevalence": 0.20104496429827196 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900497, "name": "Kandahar", "population": 1801843 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 1635138, "prevalence": 0.9074810219467876 },
+      "rcsi": { "people": 1126998, "prevalence": 0.6254695886378558 },
+      "healthAccess": { "people": 727431, "prevalence": 0.45085300867289546 },
+      "marketAccess": { "people": 577335, "prevalence": 0.32041359874306474 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900498, "name": "Kapisa", "population": 628639 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 580434, "prevalence": 0.9233187475327687 },
+      "rcsi": { "people": 347461, "prevalence": 0.5527194462958869 },
+      "healthAccess": { "people": 212197, "prevalence": 0.4113150997426312 },
+      "marketAccess": { "people": 187517, "prevalence": 0.29829043377836884 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900499, "name": "Khost", "population": 819460 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 699643, "prevalence": 0.8537854196666097 },
+      "rcsi": { "people": 435298, "prevalence": 0.5312010348278134 },
+      "healthAccess": { "people": 353854, "prevalence": 0.49738201184362535 },
+      "marketAccess": { "people": 171313, "prevalence": 0.20905596368340126 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900500, "name": "Kunar", "population": 642920 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 565018, "prevalence": 0.8788309587506997 },
+      "rcsi": { "people": 374189, "prevalence": 0.5820148696571891 },
+      "healthAccess": { "people": 300163, "prevalence": 0.4961699336569528 },
+      "marketAccess": { "people": 173549, "prevalence": 0.2699387171032166 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900501, "name": "Kunduz", "population": 1463366 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 1336079, "prevalence": 0.9130172027782756 },
+      "rcsi": { "people": 801567, "prevalence": 0.5477556537462261 },
+      "healthAccess": { "people": 459978, "prevalence": 0.3794526943047445 },
+      "marketAccess": { "people": 353534, "prevalence": 0.24158959549422362 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900502, "name": "Laghman", "population": 635317 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 558336, "prevalence": 0.8788305680471323 },
+      "rcsi": { "people": 369764, "prevalence": 0.5820149626092171 },
+      "healthAccess": { "people": 296614, "prevalence": 0.4961710165717228 },
+      "marketAccess": { "people": 171496, "prevalence": 0.2699376846519139 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900503, "name": "Logar", "population": 559215 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 516333, "prevalence": 0.9233177845729218 },
+      "rcsi": { "people": 309089, "prevalence": 0.5527194370680328 },
+      "healthAccess": { "people": 188763, "prevalence": 0.4113152321593132 },
+      "marketAccess": { "people": 166809, "prevalence": 0.29829135484563185 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900504, "name": "Nangarhar", "population": 2190772 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 1925320, "prevalence": 0.8788317542857038 },
+      "rcsi": { "people": 1275064, "prevalence": 0.5820158373395314 },
+      "healthAccess": { "people": 1022818, "prevalence": 0.4961710297797652 },
+      "marketAccess": { "people": 591374, "prevalence": 0.2699386335045363 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900505, "name": "Nimroz", "population": 236308 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 214445, "prevalence": 0.9074810962346116 },
+      "rcsi": { "people": 147803, "prevalence": 0.625467610068216 },
+      "healthAccess": { "people": 95401, "prevalence": 0.4508526396321887 },
+      "marketAccess": { "people": 75716, "prevalence": 0.32041234321309475 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900506, "name": "Nuristan", "population": 210895 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 185341, "prevalence": 0.8788306977405816 },
+      "rcsi": { "people": 122744, "prevalence": 0.5820147466748856 },
+      "healthAccess": { "people": 98461, "prevalence": 0.4961673489485033 },
+      "marketAccess": { "people": 56928, "prevalence": 0.26993527584817084 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900507, "name": "Paktika", "population": 998379 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 852402, "prevalence": 0.8537859870850649 },
+      "rcsi": { "people": 530340, "prevalence": 0.531201076945729 },
+      "healthAccess": { "people": 431114, "prevalence": 0.4973824001046947 },
+      "marketAccess": { "people": 208717, "prevalence": 0.2090558795808005 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900508, "name": "Paktya", "population": 787829 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 672637, "prevalence": 0.8537855296009667 },
+      "rcsi": { "people": 418496, "prevalence": 0.5312015678529224 },
+      "healthAccess": { "people": 340195, "prevalence": 0.49738156889715096 },
+      "marketAccess": { "people": 164700, "prevalence": 0.20905551839295075 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900509, "name": "Panjsher", "population": 218763 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 201988, "prevalence": 0.9233191197616515 },
+      "rcsi": { "people": 120914, "prevalence": 0.5527168671118974 },
+      "healthAccess": { "people": 73843, "prevalence": 0.4113127726563213 },
+      "marketAccess": { "people": 65255, "prevalence": 0.29829084442981674 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900510, "name": "Parwan", "population": 949721 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 876895, "prevalence": 0.9233188094909757 },
+      "rcsi": { "people": 524929, "prevalence": 0.5527191669974656 },
+      "healthAccess": { "people": 320578, "prevalence": 0.41131486769307707 },
+      "marketAccess": { "people": 283294, "prevalence": 0.29829181412225275 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900511, "name": "Samangan", "population": 554213 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 504986, "prevalence": 0.9111766586157399 },
+      "rcsi": { "people": 300385, "prevalence": 0.5420028039760886 },
+      "healthAccess": { "people": 193354, "prevalence": 0.44497825253972306 },
+      "marketAccess": { "people": 157411, "prevalence": 0.2840261776609354 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900512, "name": "Sar-e-Pul", "population": 799480 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 728467, "prevalence": 0.9111759232917738 },
+      "rcsi": { "people": 433320, "prevalence": 0.5420023014959724 },
+      "healthAccess": { "people": 278923, "prevalence": 0.4449785308377781 },
+      "marketAccess": { "people": 227073, "prevalence": 0.2840258668134287 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900513, "name": "Takhar", "population": 1407252 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 1284846, "prevalence": 0.9130172546049472 },
+      "rcsi": { "people": 770830, "prevalence": 0.5477554837370989 },
+      "healthAccess": { "people": 442340, "prevalence": 0.3794529029839548 },
+      "marketAccess": { "people": 339978, "prevalence": 0.24158999241074094 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900514, "name": "Uruzgan", "population": 561409 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 509468, "prevalence": 0.9074811801977175 },
+      "rcsi": { "people": 351144, "prevalence": 0.6254691321300514 },
+      "healthAccess": { "people": 226649, "prevalence": 0.45085257130432144 },
+      "marketAccess": { "people": 179883, "prevalence": 0.3204134597058472 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900515, "name": "Wardak", "population": 850019 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 784838, "prevalence": 0.9233184616478816 },
+      "rcsi": { "people": 469822, "prevalence": 0.552719409801428 },
+      "healthAccess": { "people": 286923, "prevalence": 0.41131397335920133 },
+      "marketAccess": { "people": 253553, "prevalence": 0.298290979378108 }
+    }
+  },
+  {
+    "country": { "id": 1, "name": "Afghanistan", "iso3": "AFG", "iso2": "AF" },
+    "region": { "id": 900516, "name": "Zabul", "population": 494813 },
+    "date": "2022-12-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": { "people": 449033, "prevalence": 0.9074803810866287 },
+      "rcsi": { "people": 309490, "prevalence": 0.625468611374398 },
+      "healthAccess": { "people": 199763, "prevalence": 0.4508520664971259 },
+      "marketAccess": { "people": 158545, "prevalence": 0.3204139745722121 }
+    }
+  }
+]
