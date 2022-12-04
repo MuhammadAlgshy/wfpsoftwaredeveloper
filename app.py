@@ -1,10 +1,10 @@
-from getData import getData, select_Cfii_calcualtion
+from getData import getData, selectCfii_calcualtion, generateCfiiData
 from settings import *
 import time
 from scheduleTask import scheduleTask
 import datetime
-
 def main():
+
  while True:
     try:
         print("Welcome to WFP Software Develop App ~ Muhammad Algshy \n |> Programes: \n \
@@ -12,7 +12,8 @@ def main():
           2- Test API \n \
           3- Test Schedule Function \n \
           4- Run API without Schedule \n \
-          5- Select Data \n \
+          5- List Needed Cfii Calcualtion Countries \n \
+          6- Update Cfii on Dedicated Database \n \
           0- Exit!")
 
         # if I am using Python 10 I could use Match function to create the switch
@@ -29,7 +30,7 @@ def main():
           print("1 -> Use defualt(ISO3 = AFG, Start date = 2022-12-01, End date = 2022-12-02 ) \n2 -> Enter your own data")
           scenario= int(input("Scenario: "))
           if scenario ==1:
-               getData("production")
+              getData("production")
           elif scenario==2:
             Iso3_entry = input('Enter ISO3: ')
             start_date_entry = input('Enter a start date in YYYY-MM-DD format: ')
@@ -41,7 +42,22 @@ def main():
             print("ISO3 => "+Iso3_entry+"\nStart Date =>" + str(start_date) +"\nEnd Date =>" + str(end_date))
             getData("production", Iso3_entry, start_date, end_date )
         if programe == 5:
-          select_Cfii_calcualtion()
+          selectCfii_calcualtion()
+        if programe == 6:
+           print("1 -> Use defualt(Start date = 2022-12-01, End date = 2022-12-02 ) \n2 -> Enter your own data")
+           scenario= int(input("Scenario: "))
+           if scenario ==1:
+                  generateCfiiData()
+           elif scenario==2:
+            start_date_entry = input('Enter a start date in YYYY-MM-DD format: ')
+            year, month, day = map(int, start_date_entry.split('-'))
+            start_date = datetime.date(year, month, day)
+            end_date_entry = input('Enter a end date in YYYY-MM-DD format: ')
+            year, month, day = map(int, end_date_entry.split('-'))
+            end_date = datetime.date(year, month, day)
+            print("Start Date =>" + str(start_date) +"\nEnd Date =>" + str(end_date))
+            print("Start Date =>" + str(start_date) +"\nEnd Date =>" + str(end_date))
+            generateCfiiData(start_date,end_date)
         if programe == 0:
           print("Thank you for using our system! \n looking forward to see you soon! ^_^")
           exit()  

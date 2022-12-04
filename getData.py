@@ -5,7 +5,16 @@ from mysql.connector import Error
 #Settings
 from settings import logging, connectionDB
 
-def select_Cfii_calcualtion():
+from dedicatedDB import insertCountryData
+   
+def calc_cfii(fsc,rcsi):
+    if fsc < 0.5:
+        return (fsc + rcsi)/2
+    elif fsc >= 0.5:
+        return(0.5*fsc+1.5*rcsi)/2
+
+
+def selectCfii_calcualtion():
     try:
         connection = connectionDB("IConnection")
         cursor = connection.cursor()
@@ -17,37 +26,59 @@ def select_Cfii_calcualtion():
                             where cfii_calcualtion=1 ")
         
         records = cursor.fetchall()
+        list_of_countries =[]
         print("\nPrinting each row")
         for row in records:
             print("iso3_code = ", row[0], )
+            list_of_countries.append(row[0])
+        return list_of_countries
+
     except Error as e:
          print("Error while connecting to MySQL", e)
     finally:
           if connection.is_connected():
               cursor.close()
               connection.close()
-              print("MySQL connection is closed")
 
-# Test API
-def getData(status, iso3='AFG', start_date='2022-12-01', end_date='2022-12-02'):
+def getData(status, iso3='AFG', start_date='2022-10-01', end_date='2022-10-02'):
    #Variables
     iso3= iso3.upper()
     api_URL= f'https://api.hungermapdata.org/v1/foodsecurity/country/{iso3}/region?date_start={start_date}&date_end={end_date}'
+    country_data=[]
     print(api_URL)
     try:
         response_API= requests.get(api_URL)
         data = response_API.text
+        parse_json = json.loads(data) 
+        
         if status == "production":
-            parse_json = json.loads(data)  
-            with open('data.json', 'w') as f:
-                     json.dump(parse_json, f)
-        logging.info(response_API.status_code)
-    except:
-        logging.error("ERROR: Failed to establish connection, please check your API URL!")
-        # Uncomment raise to check full detailed errors!
-        # raise
-   
+                for region in parse_json:
+                        single_region_data = {
+                                'country': region['country']['name'],
+                                'region': region['region']['name'],
+                                'fcs':region['metrics']['fcs']['prevalence'],
+                                'rcsi':region['metrics']['rcsi']['prevalence'],
+                                'cfii': calc_cfii(region['metrics']['fcs']['prevalence'], region['metrics']['rcsi']['prevalence'])
+                                }
+                        country_data.append(single_region_data)
 
-# active_case = parse_json['Andaman and Nicobar Islands']['districtData']['South Andaman']['active']
-# print("Active cases in South Andaman:", parse_json)
+                #Create File for each country 
+                file_path='result_data/'+iso3+ "_country_data.json"
+                with open(file_path, 'w') as f: json.dump(country_data, f)
+                insertCountryData(iso3)
+        logging.info(response_API.status_code)
+        
+    except:
+         logging.error("ERROR: Failed to establish connection, please check your API URL! \n \
+            # or the RCSI does not exist!")
+         # Uncomment raise to check full detailed errors!
+         #raise
+   
+def generateCfiiData(start_date='2022-10-01', end_date='2022-10-02'):
+    countries = selectCfii_calcualtion()
+    #Generate Files
+    for country in countries:
+        getData('production',country ,start_date, end_date)
+    print (countries)
+
 
