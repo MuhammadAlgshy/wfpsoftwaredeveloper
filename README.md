@@ -21,7 +21,7 @@ The Script has 6 programes ("Functions"):
            
 Ehancements:
 
-- Refactore tre code to manageme SQL quiries from one function.
-- Create Log files and functions.
+- Refactore tre code to manage SQL queries from one function or a package.
+- Enable Logging files and functions.
 - Create bash file to make it as service.
 - Answer the two other questions.
